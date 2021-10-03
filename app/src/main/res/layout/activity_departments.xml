@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Departments"
+    android:background="@color/white"
+    android:id="@+id/dept_list">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <soup.neumorphism.NeumorphButton
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="onClick"
+            android:tag="1"
+            android:text="Computer Science"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            />
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Information Technology"
+            android:textSize="22sp"
+            android:onClick="onClick"
+
+            android:textAlignment="center"
+            style="@style/Widget.Neumorph.CardView"
+            android:tag="2"
+
+            />
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Applied Geology"
+            android:onClick="onClick"
+
+            android:textSize="22sp"
+            android:textAlignment="center"
+            style="@style/Widget.Neumorph.CardView"
+            android:tag="3"
+
+            />
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+
+            android:layout_margin="10dp"
+            android:text="Architecture"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            style="@style/Widget.Neumorph.CardView"
+            android:tag="4"
+
+            />
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+
+            android:layout_margin="10dp"
+            android:text="Biomedical Engineering"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            style="@style/Widget.Neumorph.CardView"
+            android:tag="5"
+
+            />
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Biotechnology"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            style="@style/Widget.Neumorph.CardView"
+            />
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Chemical Engineering"
+            android:textSize="22sp"
+            android:onClick="onClick"
+
+            android:textAlignment="center"
+            style="@style/Widget.Neumorph.CardView"
+            />
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Civil Engineering"
+            android:textSize="22sp"
+            android:onClick="onClick"
+
+            android:textAlignment="center"
+            style="@style/Widget.Neumorph.CardView"
+            />
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Department of chemistry"
+            android:onClick="onClick"
+
+            android:textSize="22sp"
+            android:textAlignment="center"
+            style="@style/Widget.Neumorph.CardView"
+            />
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Department of physics"
+            android:onClick="onClick"
+
+            android:textSize="22sp"
+            android:textAlignment="center"
+            style="@style/Widget.Neumorph.CardView"
+            />
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Department of mathematics"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            style="@style/Widget.Neumorph.CardView"
+            />
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Electrical Engineering"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            style="@style/Widget.Neumorph.CardView"
+            />
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Electronic and communication Engineering"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            style="@style/Widget.Neumorph.CardView"
+            />
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Mechanical Engineering"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            style="@style/Widget.Neumorph.CardView"
+            />
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Master in Computer Application"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            style="@style/Widget.Neumorph.CardView"
+            />
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Minning Engineering"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            style="@style/Widget.Neumorph.CardView"
+            />
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Metallurgy and material Engineering"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            style="@style/Widget.Neumorph.CardView"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
