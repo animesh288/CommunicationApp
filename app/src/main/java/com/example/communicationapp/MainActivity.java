@@ -53,6 +53,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(getApplicationContext(),Tour.class));
             }
         });
+        binding.placement.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(),Placement.class));
+            }
+        });
+
 
 
 
