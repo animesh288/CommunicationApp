@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soup.neumorphism.NeumorphCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    style="@style/Widget.Neumorph.CardView"
+    app:neumorph_backgroundColor="@color/white">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/dp"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:src="@drawable/img"
+                android:layout_marginStart="10dp"/>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Dr. Animesh Agrawal \n Assistant professor"
+                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:fontFamily="monospace"
+                android:textStyle="bold"/>
+            
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="contact : 7067477857"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:id="@+id/domain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Domain: Ph.D. (Biomedical Engineering), NIT Raipur; M.Tech (Instrumentation and Control), B Tech (E  T. C.),"
+            />
+        <TextView
+            android:id="@+id/gibberish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gibbreish: Instrumentation, Biomedical Signal Processing, Medical Imaging, Information Retrieval, Soft computing, Pattern recognition."
+            />
+
+
+        
+    </LinearLayout>
+
+</soup.neumorphism.NeumorphCardView>

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CommunicationApp">
         <activity
+            android:name=".FacultyDetails"
+            android:exported="true" />
+        <activity
             android:name=".Placement"
             android:exported="true" />
         <activity

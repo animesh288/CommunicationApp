@@ -26,6 +26,8 @@ public class Departments extends AppCompatActivity {
 
     public void onClick(android.view.View view) {
 
+
+
         String t=view.getTag().toString();
         String msg="";
         switch (t){
