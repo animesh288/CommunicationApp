@@ -28,12 +28,24 @@
                         android:text="ADDRESS : National Institute of Technology  Raipur G.E. Road, Raipur ,Chhatisgarh - 492010"
                         android:textStyle="bold"
                         android:layout_margin="10dp"/>
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Telephone Number   +91-771-2254200"
+                        android:text="Telephone Number"
                         android:textStyle="bold"
-                        android:layout_margin="10dp"/>
+                        android:layout_marginStart="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="+91-771-2254200"
+                        android:autoLink="phone"
+                        android:linksClickable="true"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -44,8 +56,30 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textStyle="bold"
-                        android:text="Email- director@nitrr.ac.in \n registrar@nitrr.ac.in"
-                        android:layout_margin="10dp"/>
+                        android:text="Email:"
+                        android:layout_marginStart="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="director@nitrr.ac.in"
+                        android:autoLink="email"
+                        android:linksClickable="true"
+                        android:layout_marginStart="10dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:text="registrar@nitrr.ac.in
+"
+                        android:autoLink="email"
+                        android:linksClickable="true"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginBottom="10dp"
+                        />
+
                 </LinearLayout>
 
             </soup.neumorphism.NeumorphCardView>
