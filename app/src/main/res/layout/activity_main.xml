@@ -48,7 +48,7 @@
         <GridLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:rowCount="4"
+            android:rowCount="3"
             android:columnCount="2"
             android:layout_marginTop="80dp"
             android:columnOrderPreserved="false"

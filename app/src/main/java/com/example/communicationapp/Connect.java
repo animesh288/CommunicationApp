@@ -7,7 +7,12 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.communicationapp.Adapter.ContactAdapter;
+import com.example.communicationapp.Model.CollegeContacts;
 import com.example.communicationapp.databinding.ActivityConnectBinding;
+
+import java.sql.Array;
+import java.util.ArrayList;
 
 public class Connect extends AppCompatActivity {
 
@@ -50,6 +55,28 @@ public class Connect extends AppCompatActivity {
                 gotoUrl("http://nitrr.ac.in/");
             }
         });
+
+        String []name={"Dr. Arif Khan","Dr. Shrish Verma","Dr. P. Y. Dhekne","Dr.(Mrs) A. B. Soni",
+        "Dr. Prabhat Diwan","Dr. R.K. Tripathi","Dr. (Mrs.) Shubhrata Gupta","Dr. Manoj Pradhan","Dr. Sanjeev Pandey",
+        "Establishment Section","Store & Purchase Section","Student Section","Examination Section","Central Library","Placement Cell"};
+
+        String []designation={"Registrar","Dean Office (Academics)","Dean Office (Student Welfare)","Dean Office (Faculty Welfare)",
+        "Dean Office (Research & Consultancy)","Dean Office (Planning & Development)","Chief Warden (Girl's Hostel)",
+        "Chief Warden (Boy's Hostel)","Sr. Medical Officer (Dispensary)"," "," "," "," "," "," "};
+
+        String []contact={"0771-2252700","+91-9755574795","+91-9669400678","+91-9617777363","+91-9479221399","0771-2254114",
+        "+91-9993244929","+91-9826540711","+91-8889838150","+91-8602705520","+91-9993947106","+91-9981544944","+91-9893655655",
+        "+91-9977508422","+91-7400730333"};
+
+        ArrayList<CollegeContacts> list=new ArrayList<>();
+
+        for(int i=0;i<name.length;i++){
+            CollegeContacts x=new CollegeContacts(name[i],designation[i],contact[i]);
+            list.add(x);
+        }
+
+        ContactAdapter contactAdapter=new ContactAdapter(Connect.this,list);
+        activityConnectBinding.listView.setAdapter(contactAdapter);
 
 
 

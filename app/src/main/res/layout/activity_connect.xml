@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,7 +9,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:id="@+id/linearlayout">
 
             <soup.neumorphism.NeumorphCardView
                 android:layout_width="match_parent"
@@ -83,56 +84,73 @@
                 </LinearLayout>
 
             </soup.neumorphism.NeumorphCardView>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_gravity="center">
-
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:src="@drawable/li"
-                    android:layout_margin="10dp"
-                    android:id="@+id/linkedin"
-                    />
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:src="@drawable/instaa"
-                    android:layout_margin="10dp"
-                    android:id="@+id/instagram"
-             />
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:src="@drawable/fb"
-                    android:layout_margin="10dp"
-                    android:id="@+id/facebook"
-                   />
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:src="@drawable/twiiter"
-                    android:layout_margin="10dp"
-                    android:id="@+id/twitter"
-
-                />
-                <de.hdodenhof.circleimageview.CircleImageView
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
-                    android:src="@drawable/web"
-                    android:layout_margin="10dp"
-                    android:id="@+id/web"
-
-                    />
-
-
-
-            </LinearLayout>
-
-
-
 
         </LinearLayout>
-</ScrollView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearlayout"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_above="@id/socials">
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+            tools:listitem="@layout/connect_list_item"
+            >
+
+        </ListView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/socials"
+        android:layout_alignParentBottom="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/li"
+            android:layout_margin="10dp"
+            android:id="@+id/linkedin"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/instaa"
+            android:layout_margin="10dp"
+            android:id="@+id/instagram"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/fb"
+            android:layout_margin="10dp"
+            android:id="@+id/facebook"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/twiiter"
+            android:layout_margin="10dp"
+            android:id="@+id/twitter"
+
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/web"
+            android:layout_margin="10dp"
+            android:id="@+id/web"
+
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
