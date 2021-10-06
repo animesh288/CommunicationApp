@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:onClick="onClick"
-            android:tag="1"
+            android:tag="0"
             android:text="Computer Science"
             android:textAlignment="center"
             android:textSize="22sp"
@@ -29,28 +29,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Information Technology"
+            android:text="Civil Engineering"
             android:textSize="22sp"
             android:onClick="onClick"
 
             android:textAlignment="center"
             style="@style/Widget.Neumorph.CardView"
-            android:tag="2"
+            android:tag="1"
 
             />
-        <soup.neumorphism.NeumorphButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="Applied Geology"
-            android:onClick="onClick"
 
-            android:textSize="22sp"
-            android:textAlignment="center"
-            style="@style/Widget.Neumorph.CardView"
-            android:tag="3"
-
-            />
         <soup.neumorphism.NeumorphButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -61,7 +49,7 @@
             android:textSize="22sp"
             android:textAlignment="center"
             style="@style/Widget.Neumorph.CardView"
-            android:tag="4"
+            android:tag="2"
 
             />
         <soup.neumorphism.NeumorphButton
@@ -74,7 +62,7 @@
             android:textSize="22sp"
             android:textAlignment="center"
             style="@style/Widget.Neumorph.CardView"
-            android:tag="5"
+            android:tag="3"
 
             />
         <soup.neumorphism.NeumorphButton
@@ -82,6 +70,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="Biotechnology"
+            android:tag="4"
+            android:onClick="onClick"
             android:textSize="22sp"
             android:textAlignment="center"
             style="@style/Widget.Neumorph.CardView"
@@ -91,27 +81,19 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="Chemical Engineering"
+            android:tag="5"
             android:textSize="22sp"
             android:onClick="onClick"
 
             android:textAlignment="center"
             style="@style/Widget.Neumorph.CardView"
             />
-        <soup.neumorphism.NeumorphButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="Civil Engineering"
-            android:textSize="22sp"
-            android:onClick="onClick"
 
-            android:textAlignment="center"
-            style="@style/Widget.Neumorph.CardView"
-            />
         <soup.neumorphism.NeumorphButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
+            android:tag="6"
             android:text="Department of chemistry"
             android:onClick="onClick"
 
@@ -124,54 +106,34 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="Department of physics"
+            android:tag="7"
             android:onClick="onClick"
 
             android:textSize="22sp"
             android:textAlignment="center"
             style="@style/Widget.Neumorph.CardView"
             />
+
         <soup.neumorphism.NeumorphButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Department of mathematics"
-            android:textSize="22sp"
-            android:textAlignment="center"
-            style="@style/Widget.Neumorph.CardView"
-            />
-        <soup.neumorphism.NeumorphButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:onClick="onClick"
             android:text="Electrical Engineering"
             android:textSize="22sp"
+            android:tag="8"
             android:textAlignment="center"
             style="@style/Widget.Neumorph.CardView"
             />
+
         <soup.neumorphism.NeumorphButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Electronic and communication Engineering"
-            android:textSize="22sp"
-            android:textAlignment="center"
-            style="@style/Widget.Neumorph.CardView"
-            />
-        <soup.neumorphism.NeumorphButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="Mechanical Engineering"
-            android:textSize="22sp"
-            android:textAlignment="center"
-            style="@style/Widget.Neumorph.CardView"
-            />
-        <soup.neumorphism.NeumorphButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
+            android:onClick="onClick"
             android:text="Master in Computer Application"
             android:textSize="22sp"
+            android:tag="9"
             android:textAlignment="center"
             style="@style/Widget.Neumorph.CardView"
             />
@@ -179,8 +141,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Minning Engineering"
+            android:onClick="onClick"
+            android:text="Department of mathematics"
             android:textSize="22sp"
+            android:tag="10"
             android:textAlignment="center"
             style="@style/Widget.Neumorph.CardView"
             />
@@ -188,11 +152,51 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Metallurgy and material Engineering"
+            android:onClick="onClick"
+            android:text="Department of humanities and Social sciences "
             android:textSize="22sp"
+            android:tag="11"
             android:textAlignment="center"
             style="@style/Widget.Neumorph.CardView"
             />
+
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="onClick"
+            android:text="Mechanical Engineering"
+            android:textSize="22sp"
+            android:tag="12"
+            android:textAlignment="center"
+            style="@style/Widget.Neumorph.CardView"
+            />
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="onClick"
+            android:text="Mining Engineering"
+            android:textSize="22sp"
+            android:tag="13"
+            android:textAlignment="center"
+            style="@style/Widget.Neumorph.CardView"
+            />
+        <soup.neumorphism.NeumorphButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="onClick"
+            android:text="Metallurgical and Materials Engineering"
+            android:textSize="22sp"
+            android:tag="14"
+            android:textAlignment="center"
+            style="@style/Widget.Neumorph.CardView"
+            />
+        
+
+
+
 
 
 

@@ -13,6 +13,7 @@ import androidx.annotation.Nullable;
 
 import com.example.communicationapp.Model.Faculty;
 import com.example.communicationapp.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,13 +41,15 @@ public class ListAdapter extends ArrayAdapter<Faculty> {
         TextView name=convertView.findViewById(R.id.name);
         TextView contact=convertView.findViewById(R.id.contact);
         TextView domain=convertView.findViewById(R.id.domain);
-        TextView gib=convertView.findViewById(R.id.gibberish);
+        TextView designation=convertView.findViewById(R.id.designation);
+        TextView qualifications=convertView.findViewById(R.id.qualifications);
 
-        imageView.setImageResource(faculty.imageId);
+        Picasso.get().load(faculty.imageId).into(imageView);
         name.setText(faculty.name);
-        contact.setText(faculty.contact);
-        domain.setText(faculty.domain);
-        gib.setText(faculty.qualification);
+        contact.setText("CONTACT : "+faculty.contact);
+        domain.setText("DOMAIN : "+faculty.domain);
+        qualifications.setText("QUALIFICATIONS : "+faculty.qualification);
+        designation.setText(faculty.designation);
 
 
 

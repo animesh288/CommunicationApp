@@ -2,18 +2,18 @@ package com.example.communicationapp.Model;
 
 public class Faculty {
 
-    public int imageId;
-    public String name,qualification,designation,contact,email,domain;
+    public String imageId;
+    public String name,designation,qualification,domain,contact;
 
-
-    public Faculty(int imageId,String name, String qualification, String contact, String domain) {
+    public Faculty(String imageId, String name, String designation, String qualification, String domain, String contact) {
+        this.imageId = imageId;
         this.name = name;
+        this.designation = designation;
         this.qualification = qualification;
-//        this.designation = designation;
-        this.contact = contact;
-//        this.email = email;
         this.domain = domain;
-        this.imageId=imageId;
+        this.contact = contact;
     }
 
+    public Faculty() {
+    }
 }
