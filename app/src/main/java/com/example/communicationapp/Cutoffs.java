@@ -138,7 +138,7 @@ public class Cutoffs extends AppCompatActivity {
 
         barChart.getDescription().setEnabled(false);
 
-        barDataSet1.setColor(Color.GRAY);
+        barDataSet1.setColor(Color.BLACK);
         XAxis xAxis = barChart.getXAxis();
         xAxis.setValueFormatter(new IndexAxisValueFormatter(dept));
         xAxis.setCenterAxisLabels(true);

@@ -17,6 +17,11 @@
                 android:layout_height="wrap_content"
                 style="@style/Widget.Neumorph.CardView"
                 app:neumorph_shapeType="basin"
+                app:neumorph_backgroundColor="@color/blue"
+                android:outlineAmbientShadowColor="@color/blue"
+                app:neumorph_strokeColor="@color/blue"
+                app:neumorph_shadowColorDark="@color/blue"
+                app:neumorph_shadowColorLight="@color/blue"
                 >
                 <LinearLayout
                     android:layout_width="wrap_content"
