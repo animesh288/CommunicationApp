@@ -11,46 +11,49 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CommunicationApp"
-        android:usesCleartextTraffic="true">
-        <activity
-            android:name=".chart18"
-            android:exported="true" />
-        <activity
-            android:name=".chart19"
-            android:exported="true" />
-        <activity
-            android:name=".chart20"
-            android:exported="true" />
+        android:usesCleartextTraffic="true"
+        >
+
+
         <activity
             android:name=".chart21"
-            android:exported="true" />
-        <activity
-            android:name=".Charts.chart21"
-            android:exported="true" />
-        <activity
-            android:name=".overall"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"
+            />
         <activity
             android:name=".FacultyDetails"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Placement"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"
+            />
         <activity
             android:name=".Tour"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"
+            />
         <activity
             android:name=".Cutoffs"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"
+            />
         <activity
             android:name=".Departments"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"
+            />
         <activity
             android:name=".About"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"
+            />
         <activity
             android:name=".Connect"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"
+            />
         <activity
             android:name=".SplashScreen"
             android:exported="true">
@@ -62,7 +65,9 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:screenOrientation="portrait"
+            />
 
         <meta-data
             android:name="preloaded_fonts"

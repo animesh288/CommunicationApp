@@ -7,7 +7,7 @@
     app:neumorph_shapeType="flat"
     app:neumorph_shadowElevation="15dp"
     android:layout_margin="5dp"
-    app:neumorph_backgroundColor="@color/white">
+    >
 
     <LinearLayout
         android:layout_width="match_parent"

@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     tools:context=".Placement"
     >
 
     <ScrollView
-        android:layout_width="150dp"
+        android:layout_width="130dp"
         android:layout_height="match_parent"
-        android:layout_margin="10dp"
-        android:id="@+id/scrollCompany">
+        android:layout_marginStart="10dp"
+        android:id="@+id/scrollCompany"
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -615,6 +615,7 @@
             android:textAlignment="center"
             android:layout_margin="10dp"
             android:textSize="22sp"
+
             android:text="2018-2019"
             android:padding="10dp"/>
         <soup.neumorphism.NeumorphButton

@@ -1,11 +1,334 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".About">
+    tools:context=".About"
+    android:orientation="vertical">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/youtube_player_view"
+        app:videoId="2qc7Zdl_8tM"
+        app:autoPlay="true"
+        android:layout_margin="10dp"
+        app:showFullScreenButton="false"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Directors of NITRR"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/aclonica"/>
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:neumorph_shapeType="flat"
+                    style="@style/Widget.Neumorph.CardView">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/current"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:text="Dr. A.M. RAWANI \n 2017-till date"
+                            android:textSize="18sp"/>
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:neumorph_shapeType="flat"
+                    style="@style/Widget.Neumorph.CardView">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/first"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:text="Dr. DS BAL(I/C) \n 2005-2006"
+                            android:textSize="18sp"/>
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:neumorph_shapeType="flat"
+                    style="@style/Widget.Neumorph.CardView">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/second"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:text="Dr. M.M. HAMBARDE(I/C) \n 2006-2007"
+                            android:textSize="18sp"/>
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:neumorph_shapeType="flat"
+                    style="@style/Widget.Neumorph.CardView">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/third"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:text="Dr. S.S. GOKHALE \n 2007-2007"
+                            android:textSize="18sp"/>
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:neumorph_shapeType="flat"
+                    style="@style/Widget.Neumorph.CardView">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/fourth"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:text="Dr. K.K SUGANDHI(I/C) \n 2007-2008"
+                            android:textSize="18sp"/>
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:neumorph_shapeType="flat"
+                    style="@style/Widget.Neumorph.CardView">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/fifth"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:text="Dr.(Mrs.) S.K. PANDEY \n 2008-2011"
+                            android:textSize="18sp"/>
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:neumorph_shapeType="flat"
+                    style="@style/Widget.Neumorph.CardView">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/sixth"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:text="Dr.A.M. RAWANI(I/C) \n 2011-2011"
+                            android:textSize="18sp"/>
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:neumorph_shapeType="flat"
+                    style="@style/Widget.Neumorph.CardView">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/seventh"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:text="Dr. S.S. GOKHALE \n 2011-2012"
+                            android:textSize="18sp"/>
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:neumorph_shapeType="flat"
+                    style="@style/Widget.Neumorph.CardView">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/eighth"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:text="Dr. K.D. PERMAR(I/C) \n 2012-2012"
+                            android:textSize="18sp"/>
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:neumorph_shapeType="flat"
+                    style="@style/Widget.Neumorph.CardView">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="10dp">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/tenth"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAlignment="center"
+                            android:layout_marginStart="10dp"
+                            android:text="Dr. SUDARSHAN TIWARI \n 2012-2017"
+                            android:textSize="18sp"/>
+                    </LinearLayout>
+                </soup.neumorphism.NeumorphCardView>
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <soup.neumorphism.NeumorphCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="@color/blue">
+
+        <ScrollView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+            android:background="@color/blue">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_margin="10dp"
+                android:padding="15dp"
+                android:lineSpacingExtra="5dp"
+                android:text="The institute is committed to the challenging task of development of technical education by preparing seasoned graduates in highly sophisticated field of engineering and technology. Development of India as an emerging industrial power is a demanding exercise as it involves the combination of cost effectiveness and efficiency along with producing world-class technology at the cutting edge. For about five decades we have been doing it with sincerity and commitment at NIT Raipur. At present the institute offers graduate level courses in twelve disciplines. \n The Institute, located in Raipur, the Capital City of Chhattisgarh State, is spared over an area of 100 acres. Raipur city is well connected with Mumbai, Delhi, Chennai, Visakhapatnam, Nagpur  Bhubneshwar by regular flights and is on the main Howrah-Mumbai railway line route. The institute is 5 km from Raipur railway station and 14 km from airport on NH-6, the Great Eastern Road. The state of chhattisgarh is a mineral rich state having enormous potential for development with seemingly inexhaustible natural resources of coal, iron ore, lime stones, dolomite, tin, gem-stones and other minerals. Many industries, such as those of cement, steel, steel alooy, mines etc., are located in the vicinity of the institute giving it a unique advantage for industry-institute interaction in various disciplines of engineering. \n Starting with two branches in 1956 the institute has grown in tandem with the major surrounding industries - the Bhilai Steel Plant, SECL, BALCO and NTPC, Korba - and presently offers 12 undergraduate, 11 Postgraduate (including M.C.A and M.Tech. in Applied Geology) and 18 Ph.D programs. The institute offers facilities for Ph.D. and also under takes R and D activities, provides testing, consultancy and other extension services including continuing education to the industry through the Industry Institute Interaction cell and the placement of the student through the Department of Training and Placement. The students have brought laurels to the institute and very well placed in Government organisation, Public and Private Sectors, Multinational Companies, Universities, research organisation in India and abroad. \n National Institute of Technology Raipur (Formerly Government Engineering College Raipur), situated in the capital of a newly incepted state of Chhattisgarh, has proven to be avant-grade in the field of science and technology over past few decades in this region. With sweet memory of foundation ceremony by our president Hon'ble Dr. Rajendra Prasad on 14th September 1956. the institute started with two departments namely Metallurgical and Mining Engineering. Later the inauguration of the Institute building was done by our Prime Minister Hon'ble Pt. Jawahar Lal Nehru on 14th March 1963. From 1st December 2005, the institute has become the National Institute of Technology. \n The Institute is contributing to the technological, industrial and economical development of the region and the country for last five decades. The Institute has long recognized its role in engineering education, generation and dissemination of useful and relevant technologies in the service of the society.
+
+As you move along the National Highway # 6 (from Raipur to Bhilai) the largest campus which comes to notice and building which strikes your imagination immediately will be that of Govt. Engineering College, Raipur, spread over an area of 100 acres, it is one of the biggest campus amongst all the technical institutions of Chhattisgarh. The campus is a completely planned entity consisting of the main institute building, six hostel blocks, residential quarters for teaching and non-teaching staff, a bank, a separate PWD and electricity office for campus maintenance, a well equipped dispensary and a well maintained guest house. The campus has got an additional facility of a local railway station meant specially for the benefit of the students of nearby areas. This campus is away from hubbubs of the city yet it is easily accessible from it. The institute is about 5 km from the Raipur railway station and about 12 km from the air port.
+
+The institute has a well - organised, magnificent building symbolising the grandeur of the institute. This huge building alone covers a total area of 62060 sq.m. It is a triple storied planned structure alongwith a central tower standing upto the height 23 meters. There are 35 lecture halls extending over an area of 6675 sq.m and 13 drawing halls/studios extending over an area of 3510 sq.m. about 85 labs over an area of 11510 sq.m. The other amenities comprise of a canteen, cycle stand, N.C.C, N.S.S department, a student activity centre co-operative store, and dispensary. The building is being further extended for the architecture and electronics departments with the construction cost of about Rs. 40 Lakh."
+        />
+        </ScrollView>
+
+
+    </soup.neumorphism.NeumorphCardView>
 
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

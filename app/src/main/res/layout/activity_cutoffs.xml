@@ -1,9 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Cutoffs">
+    tools:context=".Cutoffs"
+    android:orientation="vertical">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:gravity="center">
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/allindia"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALL INDIA"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:layout_gravity="center"/>
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:id="@+id/homestate"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOME STATE"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:layout_gravity="center"/>
+        </soup.neumorphism.NeumorphCardView>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:gravity="center">
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:neumorph_shapeType="flat"
+            style="@style/Widget.Neumorph.CardView"
+            android:id="@+id/open"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OPEN"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:layout_gravity="center"/>
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:neumorph_shapeType="flat"
+            style="@style/Widget.Neumorph.CardView"
+            android:id="@+id/ews"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EWS"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:layout_gravity="center"/>
+        </soup.neumorphism.NeumorphCardView>
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:neumorph_shapeType="flat"
+            style="@style/Widget.Neumorph.CardView"
+            android:id="@+id/obc"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OBC"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:layout_gravity="center"/>
+        </soup.neumorphism.NeumorphCardView>
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:neumorph_shapeType="flat"
+            style="@style/Widget.Neumorph.CardView"
+            android:id="@+id/st"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ST"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:layout_gravity="center"/>
+        </soup.neumorphism.NeumorphCardView>
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:neumorph_shapeType="flat"
+            style="@style/Widget.Neumorph.CardView"
+            android:id="@+id/sc"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SC"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:layout_gravity="center"/>
+        </soup.neumorphism.NeumorphCardView>
+
+    </LinearLayout>
+    </HorizontalScrollView>
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:id="@+id/barchart"/>
+
+
+</LinearLayout>
+
+
