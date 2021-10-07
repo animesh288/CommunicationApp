@@ -13,6 +13,21 @@
         android:theme="@style/Theme.CommunicationApp"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".chart18"
+            android:exported="true" />
+        <activity
+            android:name=".chart19"
+            android:exported="true" />
+        <activity
+            android:name=".chart20"
+            android:exported="true" />
+        <activity
+            android:name=".chart21"
+            android:exported="true" />
+        <activity
+            android:name=".Charts.chart21"
+            android:exported="true" />
+        <activity
             android:name=".overall"
             android:exported="true" />
         <activity
