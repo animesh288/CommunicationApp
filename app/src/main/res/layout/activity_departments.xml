@@ -169,17 +169,7 @@
             android:textAlignment="center"
             style="@style/Widget.Neumorph.CardView"
             />
-        <soup.neumorphism.NeumorphButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:onClick="onClick"
-            android:text="Metallurgical and Materials Engineering"
-            android:textSize="22sp"
-            android:tag="14"
-            android:textAlignment="center"
-            style="@style/Widget.Neumorph.CardView"
-            />
+        
         
 
 
