@@ -34,7 +34,7 @@ import javax.net.ssl.X509TrustManager;
 public class FacultyDetails extends AppCompatActivity {
 
 
-    String []dept={"cse","civil","architecture","biomed","biotech","chemical","chemistry","physics",
+    String []dept={"cse","civil","architecture","biomed","biotech","chemical","physics",
     "electrical","mca","math","english","mechanical","mining","meta"};
 
 //    ArrayList<String> hod=new ArrayList<>();

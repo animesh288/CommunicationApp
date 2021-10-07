@@ -76,18 +76,6 @@
             android:textAlignment="center"
             style="@style/Widget.Neumorph.CardView"
             />
-        <soup.neumorphism.NeumorphButton
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="Chemical Engineering"
-            android:tag="5"
-            android:textSize="22sp"
-            android:onClick="onClick"
-
-            android:textAlignment="center"
-            style="@style/Widget.Neumorph.CardView"
-            />
 
         <soup.neumorphism.NeumorphButton
             android:layout_width="match_parent"

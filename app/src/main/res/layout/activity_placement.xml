@@ -1,9 +1,587 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Placement">
+    android:background="@color/white"
+    tools:context=".Placement"
+    >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/scrollCompany">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <soup.neumorphism.NeumorphCardView
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    style="@style/Widget.Neumorph.CardView"
+                    app:neumorph_shapeType="flat"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/adobe"/>
+                </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/amazon"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/indianarmy"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/samsung"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/deloitte"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/texas"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/wipro"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tata"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tvs"/>
+                </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/prism"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/reliance"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sapient"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/shapoorji"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/siemens"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tricon1"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/uhg"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/vedanta"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/virtusa"/>
+            </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pradan"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/power2"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/oracle"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/petrol"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mu"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/maq"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/intellect"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lnt"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/lafarge"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/kec"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jp"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/infosys"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/hp"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/hmel"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/heidelberg"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ge"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fiat"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/fico"/>
+            </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/army"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/barclays"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/belzabar"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/adani"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ca_tech"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cap"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/coalindia"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/cognizant"/>
+            </soup.neumorphism.NeumorphCardView>
+
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/essel"/>
+            </soup.neumorphism.NeumorphCardView>
+            <soup.neumorphism.NeumorphCardView
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                style="@style/Widget.Neumorph.CardView"
+                app:neumorph_shapeType="flat"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/aq"/>
+            </soup.neumorphism.NeumorphCardView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_toRightOf="@id/scrollCompany"
+        >
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
