@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".chart21">
+    tools:context=".chart21"
+    >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:fontFamily="@font/aclonica"
+        android:text="2021-2020 BATCH"
+        />
+
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:layout_below="@id/year"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/barchart"
+        android:layout_margin="10dp"
+        android:padding="10dp"/>
+
+</RelativeLayout>

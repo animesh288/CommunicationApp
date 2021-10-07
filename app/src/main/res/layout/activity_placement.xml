@@ -586,6 +586,7 @@
 
         <soup.neumorphism.NeumorphButton
             android:id="@+id/g1"
+            android:tag="1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -596,6 +597,7 @@
             android:padding="10dp"/>
         <soup.neumorphism.NeumorphButton
             android:id="@+id/g2"
+            android:tag="2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -606,6 +608,7 @@
             android:padding="10dp"/>
         <soup.neumorphism.NeumorphButton
             android:id="@+id/g3"
+            android:tag="3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -616,6 +619,7 @@
             android:padding="10dp"/>
         <soup.neumorphism.NeumorphButton
             android:id="@+id/g4"
+            android:tag="4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

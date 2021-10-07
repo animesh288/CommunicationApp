@@ -22,25 +22,29 @@ public class Placement extends AppCompatActivity {
         activityPlacementBinding.g1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Placement.this,chart21.class));
+                String t= (String) activityPlacementBinding.g1.getTag();
+                startActivity(new Intent(Placement.this,chart21.class).putExtra("tag",t));
             }
         });
         activityPlacementBinding.g2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Placement.this,chart20.class));
+                String t= (String) activityPlacementBinding.g2.getTag();
+                startActivity(new Intent(Placement.this,chart21.class).putExtra("tag",t));
             }
         });
         activityPlacementBinding.g3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Placement.this,chart19.class));
+                String t= (String) activityPlacementBinding.g3.getTag();
+                startActivity(new Intent(Placement.this,chart21.class).putExtra("tag",t));
             }
         });
         activityPlacementBinding.g4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Placement.this,chart18.class));
+                String t= (String) activityPlacementBinding.g4.getTag();
+                startActivity(new Intent(Placement.this,chart21.class).putExtra("tag",t));
             }
         });
 
