@@ -35,7 +35,7 @@ public class FacultyDetails extends AppCompatActivity {
 
 
     String []dept={"cse","civil","architecture","biomed","biotech","chemical","physics",
-    "electrical","mca","math","english","mechanical","mining"};
+    "electrical","mca","math","english","mechanical","mining"," "};
 
 //    ArrayList<String> hod=new ArrayList<>();
 
